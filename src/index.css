@@ -1,0 +1,32 @@
+body {
+  background-color: lightsteelblue;
+}
+
+.wrapper {
+  display: flex;
+  height: 97vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h2 {
+  text-align: center;
+}
+
+.btn-wrapper {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: 0 auto;
+}
+
+button {
+  border-radius: 10px;
+  padding: 8px 16px;
+  cursor: pointer;
+  border: none;
+  color: white;
+}
